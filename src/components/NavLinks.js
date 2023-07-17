@@ -7,7 +7,7 @@ import closeMenu from "../images/close.svg";
 const NavLinks = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <>
+    <div className="navLinks">
       <button className="dropdown-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
         {isMenuOpen ? (
           <img className="closeMenu" src={closeMenu} alt="Close" />
@@ -32,7 +32,7 @@ const NavLinks = () => {
           Resume
         </NavLink> */}
       </nav>
-    </>
+    </div>
   );
 };
 

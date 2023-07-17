@@ -14,7 +14,7 @@
     "image": "./projectImages/website.png",
     "description": "Written in React JS, Framer Motion, Web3Forms, and hosted on Firebase.",
     "technologies": "Node JS, React JS, GCP, Firebase",
-    "github": "https://github.com/s1iqbal/personal-website",
+    "github": "https://github.com/s1iqbal/saadiqbal-website",
     "deployed": "saadiqbal.web.app",
     "bgcolor": "#060606",
     "id": "2"
