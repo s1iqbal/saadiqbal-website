@@ -111,18 +111,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 10px;
-  z-index: 1;
-}
-
-.logo {
-  height: 30px;
+  z-index: 10; /* support header on top */
+  
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  top: 0;
+  background-color: black !important;
 }
 
 .links {
   display: none;
   position: absolute;
-  top: 93px;
   right: 0px;
   background-color: var(--bg-color);
   width: 100%;
@@ -142,7 +141,7 @@ header {
 }
 
 .links a:hover {
-  color: white;
+  color: #42676B;
 }
 
 .links.open {
