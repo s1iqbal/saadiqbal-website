@@ -1,0 +1,40 @@
+[
+  {
+    "title": "osu! Tournament Map Recommender!",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Osu%21_Logo_2016.svg/2048px-Osu%21_Logo_2016.svg.png",
+    "description": "IRC Bot hosted on Render (GCP) that responds with tournament maps for osu! players.",
+    "technologies": "Node JS, Hosted on Render",
+    "github": "https://github.com/s1iqbal/chord",
+    "deployed": "https://personal-website-qy0x.onrender.com",
+    "bgcolor": "#F160A5",
+    "id": "1"
+  },
+  {
+    "title": "Personal Website",
+    "image": "./projectImages/website.png",
+    "description": "Written in React JS, Framer Motion, Web3Forms, and hosted on Firebase.",
+    "technologies": "Node JS, React JS, GCP, Firebase",
+    "github": "https://github.com/s1iqbal/personal-website",
+    "deployed": "saadiqbal.web.app",
+    "bgcolor": "#060606",
+    "id": "2"
+  },  {
+    "title": "Weather App",
+    "image": "./projectImages/weather.png",
+    "description": "Assynchronous Weather Updates from geo location or address provided.",
+    "technologies": "Node JS",
+    "github": "https://github.com/s1iqbal/Node-Weather-Async",
+    "deployed": "https://github.com/s1iqbal/Node-Weather-Async",
+    "bgcolor": "#4285f4",
+    "id": "3"
+  },  {
+    "title": "Java Fighters",
+    "image": "./projectImages/java-fighters.png",
+    "description": "Fighting game written in Java. Created in highschool by my buddy and I!",
+    "technologies": "Java",
+    "github": "https://github.com/s1iqbal/Java-Fighters",
+    "deployed": "https://github.com/s1iqbal/Java-Fighters",
+    "bgcolor": "#512240",
+    "id": "4"
+  }
+]
