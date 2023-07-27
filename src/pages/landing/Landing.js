@@ -62,7 +62,7 @@ const Landing = ({ name }) => {
           whileInView={{ opacity: 1 }}
         >
           <h1 className="name" style={styles.name}>
-            {name}
+           Saad Iqbal
           </h1>
           
         </motion.div>

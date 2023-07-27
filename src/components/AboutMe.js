@@ -51,7 +51,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
         >
           <div className="contentContainer">
             <h4>"You will face many defeats in life, but never let your self be defeated" - Maya Angelou</h4>
-            <h5>I have a passion for programming, competitive rhythm/fighting games, and running.</h5>
+            <h5>I have passion for programming, music, art, and staying active.</h5>
             <div className="infoContainer">
               <div className="row">
                 <div className="col-12 col-md-6 info">
