@@ -4,6 +4,13 @@ import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import resume from "../files/saad_resume_2023.pdf";
 
+import reactLogo from '../images/react-logo.svg'
+import nodeLogo from '../images/node-js-logo.svg'
+import javaLogo from '../images/java-logo.svg'
+import dockerLogo from '../images/docker-logo.svg'
+import nestLogo from '../images/nest-logo.svg'
+import kubernetesLogo from '../images/kubernetes-logo.svg'
+
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
     threshold: 0.2,
@@ -80,6 +87,28 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
                 {downloading ? "Downloading..." : "Download Resume"}
               </button>{" "}
+            </div>
+            <div className="infoContainer">
+            <div className="row">
+              <div className="col">
+                <img className="tech-logo" src={reactLogo} alt={name} />
+              </div>
+              <div className="col">
+                <img className="tech-logo" src={nodeLogo} alt={name} />
+              </div>
+              <div className="col">
+                <img className="tech-logo" src={kubernetesLogo} alt={name} />
+              </div>
+              <div className="col">
+                <img className="tech-logo"  src={nestLogo} alt={'nest-js'} />
+              </div>
+              <div className="col">
+                <img className="tech-logo"  src={dockerLogo} alt={'nest-js'} />
+              </div>
+              <div className="col">
+                <img className="tech-logo"  src={javaLogo} alt={'nest-js'} />
+              </div>
+            </div>
             </div>
           </div>
         </motion.div>
