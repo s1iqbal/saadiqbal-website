@@ -71,21 +71,8 @@ const Landing = ({ name }) => {
             className="description"
             onInit={(typewriter) => {
               typewriter
-                .changeDelay(50)
-                .typeString("I am a Full Stack Developer.")
-                .pauseFor(1500)
-                .deleteChars(10)
-                .pauseFor(500)
-                .typeString("Engineer.")
-                .pauseFor(2000)
-                .deleteChars(22)
-                .typeString("an Innovator.")
-                .pauseFor(2000)
-                .deleteChars(13)
-                .typeString("a leader.")
-                .pauseFor(2000)
-                .deleteAll()
-                .typeString("Full Stack Engineer.")
+                .changeDelay(100)
+                .typeString("Software Engineer")
                 .start();
             }}
           />
