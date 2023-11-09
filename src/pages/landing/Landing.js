@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 import Download from "../../components/Download";
-// import landingImage from "../../images/me.svg";
+import NavButton from "../../components/NavButton";
 
 const Landing = ({ name }) => {
   const styles = {
@@ -49,7 +49,6 @@ const Landing = ({ name }) => {
 
   return (
     <section className="landing" style={styles.landing}>
-      
       <Draw />
       <div className="textContainer" style={styles.textContainer}>
         <motion.div
@@ -83,17 +82,8 @@ const Landing = ({ name }) => {
           <Download />
         </div>
       </div>
-
-
-      {/* <motion.img
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 0.4 }}
-          //transition={{ duration: 1, ease: "easeInOut" }}
-          style={styles.landingImage}
-          src={landingImage}
-          alt="Saad Iqbal"
-      /> */}
       <SocialIcons />
+      <NavButton />
     </section>
   );
 };
