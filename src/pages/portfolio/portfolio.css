@@ -25,7 +25,9 @@
   padding: 0;
   margin: 0;
 }
-
+.searchBar {
+  background-color: white;
+}
 .textWrap {
   transition: all 0.9s ease-in-out;
   z-index: 1;

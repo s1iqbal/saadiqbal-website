@@ -28,7 +28,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
       variants={variants}
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
-      transition={{ duration: 0.4, ease: "easeInOut" }}
+      transition={{ duration: 0.8, ease: "easeInOut" }}
     >
       <div
         style={{ backgroundColor: color }}
@@ -40,7 +40,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
             <em>{technologies}</em>
           </p>
           <h3 className="projectTitle">{title}</h3>
-          <span className="viewWork">View Work &#8594;</span>
+          <span className="viewWork">View Work &#8594; </span>
         </div>
         <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
           <img src={image} alt="Project" />
@@ -76,9 +76,9 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
         <button className="btn" style={{background: color}} onClick={() => (window.location.href = github)}>
           GitHub Repo
         </button>
-        <button className="btn" style={{background: color}} onClick={() => (window.location.href = deployed)}>
+        {deployed ?         <button className="btn" style={{background: color}} onClick={() => (window.location.href = deployed)}>
           Live Link
-        </button>
+        </button> : <span></span>}
       </Modal>
     </motion.div>
   );
