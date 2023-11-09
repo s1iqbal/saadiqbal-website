@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import resume from "../files/saad_resume_2023.pdf";
-
 import reactLogo from '../images/react-logo.svg'
 import nodeLogo from '../images/node-js-logo.svg'
 import javaLogo from '../images/java-logo.svg'
