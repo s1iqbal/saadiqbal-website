@@ -1,4 +1,4 @@
-import aboutMeImg from "../images/aboutme.jpg";
+import aboutMeImg from "../images/profile.jpg";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
@@ -11,7 +11,7 @@ import dockerLogo from '../images/docker-logo.svg'
 import nestLogo from '../images/nest-logo.svg'
 import kubernetesLogo from '../images/kubernetes-logo.svg'
 
-const AboutMe = ({ name, email, location, availability, brand }) => {
+const AboutMe = ({ name, email, location, availability, brand, interests }) => {
   const [ref, inView] = useInView({
     threshold: 0.2,
     triggerOnce: true,
@@ -80,6 +80,14 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                 <div className="col-12 col-md-6 info">
                   <span>Availability:</span>
                   <p>{availability}</p>
+                </div>
+                <div className="col-12 col-md-6 info">
+                  <span>Role:</span>
+                  <p>{brand}</p>
+                </div>
+                <div className="col-12 col-md-6 info">
+                  <span>Interests:</span>
+                  <p>{interests}</p>
                 </div>
               </div>
             </div>

@@ -68,7 +68,6 @@ const Form = () => {
       transition={{ duration: 0.4, ease: "easeInOut" }}
       onSubmit={handleSubmit}
     >
-      <h4 className="contentTitle">Message Me</h4>
       <div className="col-12 col-md-6 formGroup" style={{ display: "inline-block"}}>
         <input
           type="text"
@@ -115,7 +114,7 @@ const Form = () => {
           value={formData.message}
           name="message"
           id="contactMessage"
-          rows="5"
+          rows="4"
           placeholder="Message"
           required
           style={inputBoxStyle}
