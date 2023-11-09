@@ -7,7 +7,8 @@ function App() {
     location: "Toronto, Canada",
     email: "happysaadliving@gmail.com",
     availability: "Open for work",
-    brand: "Full Stack Engineer",
+    brand:
+      "Full Stack Engineer",
   };
   
   
