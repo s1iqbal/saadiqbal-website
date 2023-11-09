@@ -13,7 +13,7 @@
   - Flexbox 
   - Framer Motion
 - Backend
-  - Currently being served as a static React website. It will ake the use of Firebase functions to act as a backend.
+  - Currently being served as a static React website.
 - Hosting
   - <a href="https://firebase.google.com/docs/hosting">Firebase</a>. 
     - It currently uses the spark plan, while providing a clean domain name for free.
