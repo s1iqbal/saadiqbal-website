@@ -1,4 +1,4 @@
-import aboutMeImg from "../images/aboutme.jpg";
+import aboutMeImg from "../images/profile.jpg";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
@@ -80,6 +80,10 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                 <div className="col-12 col-md-6 info">
                   <span>Availability:</span>
                   <p>{availability}</p>
+                </div>
+                <div className="col-12 col-md-6 info">
+                  <span>Role:</span>
+                  <p>{brand}</p>
                 </div>
               </div>
             </div>

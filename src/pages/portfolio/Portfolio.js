@@ -3,8 +3,8 @@ import Project from "../../components/Project";
 import PageHeader from "../../components/PageHeader";
 
 const Portfolio = () => {
-  const ProjectList = () =>
-    projectData.map((project, i) => (
+  const ProjectList = () => {
+    return projectData.map((project, i) => (
       <Project
         key={i}
         id={project.id}
@@ -17,6 +17,8 @@ const Portfolio = () => {
         description={project.description}
       />
     ));
+  }
+    
 
   return (
     <section className="portfolio">

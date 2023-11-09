@@ -69,6 +69,7 @@ body {
 .tech-logo:hover {
   scale:1.1;
   transition: all 0.2s ease-in-out;
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
 }
 
 
@@ -152,7 +153,7 @@ header {
 }
 
 .links a:hover {
-  color: #42676B;
+  color: #0093C4;
 }
 
 .links.open {
@@ -221,12 +222,13 @@ header {
     left: 0;
     width: 0;
     height: 1px;
-    background-color: var(--text-color);
+    background-color:#0093C4;
     transition: width 0.3s ease-in-out;
   }
 
   .links a:hover:before {
     width: 100%;
+    
   }
 
   .links a.active:before {
@@ -236,7 +238,7 @@ header {
     left: 0;
     width: 0;
     height: 1px;
-    background-color: var(--text-color);
+    background-color:#0093C4;
     transition: width 0.3s ease-in-out;
     width: 100%;
   }

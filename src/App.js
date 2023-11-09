@@ -5,10 +5,10 @@ function App() {
   const personalDetails = {
     name: "Saad Iqbal",
     location: "Toronto, Canada",
-    email: "happysaadliving@gmail.com",
+    email: "saadiqbal525@hotmail.com",
     availability: "Open for work",
-    brand:
-      "Full Stack Engineer",
+    brand: "Software Engineer",
+    interest: "tasdsadasd"
   };
   
   
